@@ -50,6 +50,14 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
+@media only screen and (max-width: 640px) {
+	body {
+	background-image: url(http://www.winwallpapers.net/w1/2012/12/Download-Sony-Ericsson-Xpreria-Mini-wallpaper-640x480-490.jpg);
+	}
+}
+
+
 .top-bar, .top-bar ul {
 	background-color: rgba(0,0,0,0);
 }
@@ -59,6 +67,15 @@
 }
 
 
+@media only screen and (min-width: 0px) {
+	.top-bar-left {
+		display: none;
+	}
+
+	.top-bar-right {
+		display: inline-block;
+	}
+}
 
 @media only screen and (min-width: 640px) {
 	.top-bar-left {
