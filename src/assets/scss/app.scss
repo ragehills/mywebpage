@@ -49,3 +49,34 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+.top-bar, .top-bar ul {
+	background-color: rgba(0,0,0,0);
+}
+
+.top-bar-right {
+	display: hidden;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+	.top-bar-left {
+		display: none;
+	}
+
+	.top-bar-right {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.top-bar-left {
+		display: none;
+	}
+
+	.top-bar-right {
+		display: inline-block;
+		margin-right: 30vw;
+	}
+}
