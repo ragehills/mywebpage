@@ -50,7 +50,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 @media only screen and (min-width: 0px) {
 	body {
@@ -139,6 +140,10 @@
 		margin-right: 30vw;
 	}
 
+	.social{
+		color: #fff;
+	}
+
 	.footer {
 		width: 20vw;
 		position: absolute-fixed-center;
@@ -155,8 +160,44 @@
 }
 
 a {
-	color: white;
+	color: #FFF;
+	text-decoration: none;
 	font-weight: 900;
 }
 
+.social-icons {
+	font-family: 'Lato', sans-serif;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+}
 
+
+
+
+.fa-facebook {
+	padding: 10px 14px;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	background-color: #322f30;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+}
+
+.fa-twitter {
+	padding: 10px 12px;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	background-color: #322f30;
+}
+
+.fa-twitter:hover {
+	background-color: #00aced;
+}
