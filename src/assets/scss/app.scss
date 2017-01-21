@@ -92,6 +92,17 @@
 	.top-bar-right {
 		display: inline-block;
 	}
+
+	.footer {
+		position: absolute-fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		background-color: rgba(221,218,209,0);
+		text-align: center;
+		color: #DFF8EB;
+	}
 }
 
 @media only screen and (min-width: 640px) {
@@ -101,6 +112,17 @@
 
 	.top-bar-right {
 		display: inline-block;
+	}
+
+	.footer {
+		position: absolute-fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		background-color: rgba(221,218,209,0);
+		text-align: center;
+		color: #DFF8EB;
 	}
 }
 
@@ -113,14 +135,18 @@
 		display: inline-block;
 		margin-right: 30vw;
 	}
-}
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: rgba(0,0,0,0);
-  text-align: center;
+	.footer {
+		width: 20vw;
+		position: absolute-fixed-center;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		background-color: rgba(221,218,209,0.5);
+		text-align: center;
+		color: #0a0a0a;
+	 	margin-left: 40vw;
+	 	font-weight: 1100;
+	}
 }
