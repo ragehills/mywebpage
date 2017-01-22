@@ -84,23 +84,24 @@
 }
 
 
+
 @media only screen and (min-width: 0px) {
 	.top-bar-left {
-		display: inline-block;
+		display: none;
 	}
 
 	.top-bar-right {
-		display: none;
+		display: inline-block;
 	}
 
 	.top-bar-sticky {
 		width: 100vw;
-		position: right;
+		background-color: rgba(221,218,209,0);
 	}
 
 	.callout {
-	margin-top: 20px;
-	background-color: rgba(221,218,209, 0.8);
+		margin-top: 20px;
+		background-color: rgba(221,218,209, 0.8);
 	}
 
 	.footer {
@@ -113,6 +114,14 @@
 		text-align: center;
 		color: #DFF8EB;
 	}
+
+	a:hover {
+		color: #000
+	}
+
+	h3 {
+		padding-top: 10px;
+	}
 }
 
 @media only screen and (min-width: 640px) {
@@ -122,12 +131,10 @@
 
 	.top-bar-right {
 		display: inline-block;
-		top: 0;
 	}
 
 	.top-bar-sticky {
 		width: 100vw;
-		position: right;
 		background-color: rgba(221,218,209,1);
 	}
 
@@ -144,6 +151,14 @@
 		background-color: rgba(221,218,209,0);
 		text-align: center;
 		color: #DFF8EB;
+	}
+	
+	a:hover {
+		color: #000
+	}
+
+	h3 {
+		padding-top: 35px;
 	}
 }
 
@@ -185,6 +200,14 @@
 	 	margin-left: 40vw;
 	 	font-weight: 1100;
 	}
+
+	a:hover {
+		color: #000
+	}
+
+	h3 {
+		padding-top: 10px;
+	}
 }
 
 .callout {
@@ -201,7 +224,6 @@ a {
 
 ul.social-icons {
   padding: 0;
-  padding-left: -5%;
   list-style: none;
 }
 
@@ -283,4 +305,10 @@ ul.social-icons {
 
 h3 {
 	text-shadow: 1.5px 1.5px 6px #464542;
+}
+.facebook, .twitter, .youtube, .linkedin {
+	margin: 5%;
+	padding: 1%;
+	vertical-align: top;
+	display: inline;
 }
