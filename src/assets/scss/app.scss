@@ -160,6 +160,7 @@
 	h3 {
 		padding-top: 35px;
 	}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -188,17 +189,14 @@
 	}
 
 	.footer {
-		width: 20vw;
-		position: absolute-fixed-center;
+		position: absolute-fixed;
 		right: 0;
 		bottom: 0;
 		left: 0;
 		padding: 1rem;
-		background-color: rgba(221,218,209,0.5);
+		background-color: rgba(221,218,209,0);
 		text-align: center;
-		color: #0a0a0a;
-	 	margin-left: 40vw;
-	 	font-weight: 1100;
+		color: #DFF8EB;
 	}
 
 	a:hover {
@@ -312,3 +310,9 @@ h3 {
 	vertical-align: top;
 	display: inline;
 }
+
+.footer .social-icon {
+	color: #FFF;	
+}
+
+
