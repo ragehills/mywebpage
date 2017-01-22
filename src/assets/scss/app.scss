@@ -57,7 +57,6 @@
 	body {
 		background-image: url(http://i.imgur.com/lrnUYtY.jpg);
 		background-size: cover;
-		color: #fff;
 	}
 }
 
@@ -74,7 +73,6 @@
 		background-size: cover;
 	}
 }
-
 
 
 .top-bar, .top-bar ul {
@@ -95,6 +93,11 @@
 		display: inline-block;
 	}
 
+	.top-bar-sticky {
+		width: 100vw;
+		position: right;
+	}
+
 	.callout {
 	background-color: rgba(221,218,209, 0.8);
 	}
@@ -120,8 +123,13 @@
 		display: inline-block;
 	}
 
+	.top-bar-sticky {
+		width: 100vw;
+		position: right;
+	}
+
 	.callout {
-	background-color: rgba(221,218,209, 0.8);
+		background-color: rgba(221,218,209, 0.8);
 	}
 
 	.footer {
@@ -144,7 +152,12 @@
 
 	.top-bar-right {
 		display: inline-block;
-		margin-right: 30vw;
+		margin-left: 30vw;
+	}
+
+	.top-bar-sticky {
+		width: 100vw;
+		position: right;
 	}
 
 	.social{
@@ -152,7 +165,7 @@
 	}
 
 	.callout {
-	background-color: rgba(221,218,209, 0.55);
+		background-color: rgba(221,218,209, 0.55);
 	}
 
 	.footer {
@@ -169,6 +182,7 @@
 	 	font-weight: 1100;
 	}
 }
+
 
 a {
 	color: #FFF;
