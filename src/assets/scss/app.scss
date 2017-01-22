@@ -57,12 +57,13 @@
 	body {
 		background-image: url(http://i.imgur.com/lrnUYtY.jpg);
 		background-size: cover;
+		color: #fff;
 	}
 }
 
 @media only screen and (min-width: 640px) {
 	body {
-		background-image: url(http://www.androidguys.com/wp-content/uploads/2016/06/wallpaper-1d24ce.jpg);
+		background-image: url(http://i.imgur.com/lrnUYtY.jpg);
 		background-size: cover;		
 	}
 }
@@ -74,9 +75,7 @@
 	}
 }
 
-.callout {
-	background-color: rgba(221,218,209, 0.55);
-}
+
 
 .top-bar, .top-bar ul {
 	background-color: rgba(0,0,0,0);
@@ -94,6 +93,10 @@
 
 	.top-bar-right {
 		display: inline-block;
+	}
+
+	.callout {
+	background-color: rgba(221,218,209, 0.8);
 	}
 
 	.footer {
@@ -115,6 +118,10 @@
 
 	.top-bar-right {
 		display: inline-block;
+	}
+
+	.callout {
+	background-color: rgba(221,218,209, 0.8);
 	}
 
 	.footer {
@@ -144,6 +151,10 @@
 		color: #fff;
 	}
 
+	.callout {
+	background-color: rgba(221,218,209, 0.55);
+	}
+
 	.footer {
 		width: 20vw;
 		position: absolute-fixed-center;
@@ -167,6 +178,7 @@ a {
 
 ul.social-icons {
   padding: 0;
+  padding-left: -5%;
   list-style: none;
 }
 
@@ -178,6 +190,16 @@ ul.social-icons {
 
 .social-icon {
 	color: #000;	
+}
+
+ul.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
 }
 
 .fa-facebook {
